@@ -1,7 +1,7 @@
 import './App.css';
 import Menu from './view/Menu.js'
 
-import Gs from './view/Gs.js'
+
 
 function App() {
 
@@ -10,8 +10,7 @@ function App() {
         <div className="App">
  
              <Menu  />
-
-            <Gs />
+ 
           </div>
 
     );

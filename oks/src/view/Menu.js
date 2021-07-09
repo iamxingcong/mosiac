@@ -5,7 +5,7 @@
 
      return (
          <div className="App">
-    <Get url="http://192.168.1.14/wp/wordpress//wp-json/wp/v2/categories">
+    <Get url="wp-json/wp/v2/categories">
      
         {(error, response, isLoading, makeRequest, axios) => {
           if(error) {
