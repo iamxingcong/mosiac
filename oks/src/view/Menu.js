@@ -3,9 +3,8 @@
 
  function Menu() {
 
-     return (
-         <div className="App">
-    <Get url="wp-json/wp/v2/categories">
+     return (<div>
+         <Get url="wp-json/wp/v2/categories">
      
         {(error, response, isLoading, makeRequest, axios) => {
           if(error) {
@@ -23,9 +22,7 @@
           }
           return (<div>Default message before request is made.</div>)
         }}
-      </Get>
-  </div>
-     );
+      </Get> </div>);
  }
 
 

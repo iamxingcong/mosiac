@@ -1,7 +1,7 @@
 import './App.css';
 import Menu from './view/Menu.js'
 
-
+import Android from './view/Android.js'
 
 function App() {
 
@@ -10,7 +10,7 @@ function App() {
         <div className="App">
  
              <Menu  />
- 
+            <Android />
           </div>
 
     );
