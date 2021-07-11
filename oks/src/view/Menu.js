@@ -16,7 +16,7 @@
           else if(response !== null) {
             return (<>
               {response.data.map((user,index) =>
-                  <h1 key={index}>{user.name}</h1>
+                  <h1 key={user.id +'-'+index}>{user.name}</h1>
               )}
             </>)
           }

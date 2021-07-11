@@ -16,8 +16,10 @@ function Android() {
                     return (<div>Loading...</div>)
                 } else if (response !== null) {
                     return ( < > {
-                            response.data.map((user, index) =>
-                                <p key={index}>{user.content.rendered}</p>
+                            response.data.map((user) =>
+                                 
+                                  <span  key={user.id} dangerouslySetInnerHTML={{__html: user.content.rendered.toString()}} />
+                                 
                             )
                         } <
                         />)
